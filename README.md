@@ -49,8 +49,8 @@ This project implements an RFID-based access control system using an Arduino and
 * **_OK() / _ERROR()** → Feedback indicators
 ---
 ## **EEPROM Structure**
-The EEPROM stores up to **10 card IDs**, each occupying a 32-byte block.
-Slot 11 is used as a reference for empty space detection.
+The EEPROM stores up to 10 card IDs, each occupying a 32-byte block. Slot 11 is used as a reference for empty space detection.
+
 ---
 ## **Usage**
 1. Power on the system.
